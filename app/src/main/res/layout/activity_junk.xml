@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbarStyle="insideOverlay">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/activity_junk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Junk"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_light"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:text="Junk food's Definition.\nJunk food is a pejorative term for cheap food containing high levels of calories from sugar or fat with little fiber, protein, vitamins or minerals.\nJunk food can also refer to high protein food like meat prepared with saturated fat - which some believe may be unhealthy, although some studies have shown no correlation between saturated fat and cardiovascular diseases.\nDespite being labeled as &quot;junk&quot;, such foods usually do not pose any immediate health concerns and are generally safe when integrated into a well balanced diet. They are foods that contain at least less than one 100 calories and can be a good snack for consumption;\nPopcorns\nPopcorn is a whole grain, plus it's loaded with fiber for a healthy digestive system. Three air-popped cups deliver nearly four grams of fiber.\nNutted Butters\nNut and seed butters — such as peanut, almond or sunflower butter — all are perfect no-fuss foods for the novice cook. They're a cinch to spread on French toast with sliced bananas or make a tasty dip for apples, celery or bell pepper strips.\nReduced-Fat Triscuits \nThese whole-grain crackers offer a bonus 3 grams of fiber to keep you feeling full until dinner. \nGlenny's Soy Crisps, Salt and Pepper Flavor \nAnytime we can eat a half a bag of something without guilt, we're happy. When we also get 20 percent of the 25 grams of soy protein recommended per day to lower cholesterol, we're ecstatic. Try Cheddar, Barbecue, and even Fancy Fudge flavors as well.\n Take away tip:\nYou can safely add to your list by checking the amount of calories, fats and sodium in the ingredients in the kind of junk that you want  to snack."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11" />
+    </LinearLayout>
+</ScrollView>

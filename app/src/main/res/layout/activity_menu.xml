@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--android:background="#ff0000"-->
+    <!--android:fadingEdge="horizontal">-->
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Select your delicacy "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textView12"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Spinner
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12dp"
+            android:id="@+id/spinner" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/et_add"
+        android:layout_width="126dp"
+        android:layout_marginRight="0dp"
+        android:hint="Quantity" />
+
+
+    <Button
+        android:text="Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnadd"
+        android:onClick="onButtonClick (menu)" />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:weightSum="2"
+        >
+
+    <Button
+        android:text="Clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnclr"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:text="Buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnby"
+        android:onClick="click"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"/>
+
+        <data>
+            <import type="com.sample.foo.usingrecyclerview.Person"/>
+            <variable
+                name="person"
+                type="Person"/>
+        </data>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nameTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:text="@{quantity + ' ' + text+ ' '  +amount}"/>
+
+                <TextView
+                    android:id="@+id/roleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@{foodclass}"/>
+            </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/activity_carbohydrates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carbohydrates"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_light"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:text="Carbohydrates definition\nThe American Diabetes Association notes that carbohydrates are the body's main source of energy. They are called carbohydrates because, at the chemical level, they contain carbon, hydrogen and oxygen.\n&quot;Carbohydrates are macronutrients, meaning they are one of the three main ways the body obtains energy, or calories, said Paige Smathers, a Utah-based registered dietitian. Carbohydrates are the sugars, starches and fibers found in fruits, grains, vegetables and milk products.\nCarbohydrates deficiency disease.\nAcidosis:\n In carbohydrate starvation, there is shift from glycolysis (breakdown of glucose) to lipolysis (breakdown of lipids) and ketogenesis for energy needs. The resultant production of ketoacids increases acidity in the blood and other body tissues. These changes in the pH of arterial blood outside 7.35 pH - 7.45 pH result in irreversible cell damage. \nKetosis:\n During prolonged carbohydrate fasting or starvation, acetyl-CoA in the liver is used to produce ketone bodies formed by the breakdown of fatty acids and by the deamination of amino acids, leading to a state of ketosis.\n Hypoglycemia:\n The non-availability of glucose due to severe lack of carbohydrate causes drop in the blood sugar levels. Hypoglycemia occurs when blood glucose, levels drop under 70 mg/dL with typical symptoms like giddiness, fatigue, distress and delirium.\nFatigue and decreased energy levels:\nThe immediate non availability of glucose in the blood for energy production, result in dip in the energy levels and fatigue.\nMuscle wasting:\nAs the fat reserves and amino acids are getting used up for energy production, there will be general loss of muscle mass and impairment of growth.\nUnhealthy weight loss:\n The loss of fat and muscle mass leads to emaciation and weight loss.\nDehydration and reduced body secretions:\nAs there is loss of fluids from the body due to ketosis, a state of chronic dehydration is reached. This results in reduction in mucus secretion, dry eyes and compromised mucus production in tear glands, salivary glands, sinuses, airways, and gastrointestinal tract.\nLoss of sodium:\nExcess of ketone in the blood leads to fluid loss and excretion of sodium ions(Na+) from the body. This may lead to muscle cramps, exhaustion and lassitude.\nWeakened immune system:\nWith increased fluid loss and degradation, vitamin C  loss from the body is increased. Adding to this, the chronically dehydrated condition leads to weakened immune system and susceptibility to infections.\nConstipation:\nDietary fiber is an essential component of carbohydrate food, which is known to prevent recto-colon cancer and help digestion. The absence of dietary fiber can cause constipation.\nMood swing:\nDietary carbohydrate exclusion causes the brain to stop regulating serotonin hormone. Low serotonin supply causes mood swing and depression. "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    </LinearLayout>
+</ScrollView>

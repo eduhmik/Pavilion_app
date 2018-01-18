@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_order"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.eduh_mik.Pavillion.Order">
+
+    <Button
+        android:text="SUPPER"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSup"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="77dp" />
+
+    <Button
+        android:text="BREAKFAST"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBrek"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="LUNCH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLunch"
+        android:layout_below="@+id/btnBrek"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:text="BMI CALCULATOR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btnBMI"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/btnDiet"
+        android:layout_toStartOf="@+id/btnDiet" />
+
+    <Button
+        android:text="NUTRITION   DIETETICS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDiet"
+        android:layout_alignBaseline="@+id/btnBMI"
+        android:layout_alignBottom="@+id/btnBMI"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:id="@+id/btnOrd"
+        android:text="ORDERS"
+        android:layout_below="@+id/btnBMI"
+        android:layout_alignLeft="@+id/btnBMI"
+        android:layout_alignStart="@+id/btnBMI"
+        android:layout_marginLeft="84dp"
+        android:layout_marginStart="84dp"
+        android:gravity="center"/>
+</RelativeLayout>

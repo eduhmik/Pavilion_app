@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/activity_proteins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proteins"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_light"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='Proteins Definition.\nProteins are large, complex molecules that play many critical roles in the body. They do most of the work in cells and are required for the structure, function, and regulation of the body’s tissues and organs.\nProteins can be described according to their large range of functions in the body;\nAntibody\n	Antibodies bind to specific foreign particles, such as viruses and bacteria, to help protect the body e.g Immunoglobulin.\nEnzyme	\nEnzymes carry out almost all of the thousands of chemical reactions that take place in cells. They also assist with the formation of new molecules by reading the genetic information stored in DNA e.g Phenylalanine hydroxylase.\nMessenger\nMessenger proteins, such as some types of hormones, transmit signals to coordinate biological processes between different cells, tissues, and organs.\nStructural component\nThese proteins provide structure and support for cells. On a larger scale, they also allow the body to move e.g Actin.\nTransport storage\nThese proteins bind and carry atoms and small molecules within cells and throughout the body.\nExamples of foods rich in proteins;\nMeat, fish, cheese, tofu, beans, lentils, yogurt, eggs, nuts and seeds.\nProtein Deficiency Disease.\nMarasmus\n Marasmus is a disease caused by a severe deficiency of protein and calories that affect infants and very young children, often resulting in weight loss and dehydration. Marasmus can develop into starvation and cause fatality caused by a lack of essential nutrients. People with marasmus appear bony with little muscle tissue, according to Food4Africa.\nKWashiorkor\nKwashiorkor is a disease caused by a severe deficiency of protein in diets that contain calories mostly from carbohydrates such as yams, rice and bananas. It usually affects older children. People with kwashiorkor appear puffy in the abdomen area from retention of fluid, according to the University of Maryland Medical Center. Common symptoms of both marasmus and kwashiorkor include fatigue, irritability, diarrhea, stunted growth and impairment of cognition and mental health.\nCachexia\n Cachexia is a condition that involves protein deficiency, depletion of skeletal muscle and an increased rate of protein degradation, according to research by D.P. Kotler published in the "Annals of Internal Medicine" in 2000. Cachexia causes weight loss and mortality and is associated with cancer, AIDS, chronic kidney failure, heart disease, chronic obstructive pulmonary disease and rheumatoid arthritis, according to J.E. Morley in the "American Journal of Clinical Nutrition."\nDeficiencies of protein C and protein S are inherited conditions that cause abnormal blood clotting, according to Medline Plus. Deficiency of protein C occurs in about 1 out of 300 people. Deficiency of protein S affects 1 in 20,000 people. Symptoms for these deficiencies include redness, pain, tenderness or swelling in the affected area. People with these protein deficiencies need to be careful about activities that increase risk of blood clots, such as prolonged sitting, bed rest, and long-time travel in cars and airplanes.'
+        android:id="@+id/textView7" />
+    </LinearLayout>
+</ScrollView>

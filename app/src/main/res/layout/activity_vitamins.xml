@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/activity_vitamins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vitamins"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_light"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:text="Vitamin's Definition.\nVitamins are substances contained in food that are essential for various functions in the body. They aid in your body's nerve function, growth and digestion. There are 13 vitamins that are classified as either water-soluble or fat-soluble. The water-soluble vitamins -- A, D, E, K -- dissolve in water, the fat-soluble vitamins -- the B vitamins -- are absorbed by fat and any excess is stored in fat. To function properly, your body requires a certain amount of vitamins. If you have a large deficiency in one or more vitamins, you may develop a vitamin deficiency disorder or disease.\nExamples of Vitamins;\nVitamin A\nLiver, orange, ripe yellow fruits, leafy vegetables, carrots, pumpkin, squash, spinach, fish, soya milk, milk.\nVitamin B1\nPork, oatmeal, brown rice, vegetables, potatoes, liver, eggs.\nVitamin B2\nDairy products, bananas, popcorn, green beans, asparagus.\nVitamin B3\nMeat, fish, eggs, many vegetables, mushrooms, tree nuts.\nVitamin B5\nMeat, broccoli, avocados.\nVitamin B6\nMeat, vegetables, tree nuts, bananas.\nVitamin B7\nRaw egg yolk, liver, peanuts, leafy green vegetables.\nVitamin B9\nLeafy vegetables, pasta, bread, cereal, liver.\nVitamin B12\nMeat, poultry, fish, eggs, milk.\nVitamin C\nMany fruits and vegetables, liver.\nVitamin D\nFish, eggs, liver, mushrooms.\nVitamin E\nMany fruits and vegetables, nuts and seeds.\nVitamin K\nLeafy green vegetables such as spinach, egg yolks, liver.\nVitamin Deficiency Diseases;\nScurvy\nScurvy is a disorder of vitamin deficiency arising from a lack of vitamin C, also known as ascorbic acid. Vitamin C is essential for immune function, wound healing and collagen production. Collagen is a necessary component of connective tissue in your bones, cartilage, skin and ligaments. Therefore, vitamin C plays an important role in keeping your skin and bones healthy. It also helps maintain healthy gums and teeth. Scurvy affects all these tissues. Symptoms include gum disease, swollen and bleeding gums and loose teeth, bruising of your skin, pain in your joints, slow wound healing, and general weakness. Scurvy is not common in the United States but most often occurs in elderly people with poor nutrition.\n Rickets\nRickets is a vitamin deficiency disorder caused by a lack of vitamin D. The job of vitamin D in your body is to promote the growth and development of your bones. It does this by helping your body absorb calcium from either a dietary source or from a dietary supplement. Rickets manifests as skeletal deformities such as bowlegs and scoliosis -- a curvature in the spine; retarded growth; soft and weak bones, resulting in bone fractures; decreased muscle tone; and dental cavities. It's not that common in the United States but is more likely to be experienced by children from 6 months to 2 years of age. \n Pellagra\n Pellagra is a deficiency disorder caused by a lack of vitamin B3, also known as niacin or nicotinic acid. Vitamin B3 helps your body convert food to energy and is important for your nerve health. Pellagra is not very common in developed countries. However, alcoholics and malnourished people tend to be more at risk for developing this deficiency.\n Pellagra is characterized by a dark red rash covering your face, neck, feet, hands and calves. Your mouth and tongue may also be red, swollen and full of sores. You may suffer from diarrhea, nausea, vomiting or constipation. You may have trouble sleeping or feel extremely tired.  "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10" />
+    </LinearLayout>
+</ScrollView>

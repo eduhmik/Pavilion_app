@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bmi"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#228B22"
+    android:fadingEdge="horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.eduh_mik.Pavillion.BMI">
+
+
+        <!--android:text="The body mass index (BMI) or Quetelet index is a value derived from the mass (weight) and height of an individual. The BMI is defined as the body mass divided by the square of the body height, and is universally expressed in units of kg/m2, resulting from mass in kilograms and height in metres.  BMI Categories: Underweight = <18.5 Normal weight = 18.5–24.9 Overweight = 25–29.9 Obesity = BMI of 30 or greater"-->
+        <!--android:layout_width="wrap_content"-->
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingTop="40dp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:text="BMI"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:typeface="serif"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calculator"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="30dp"
+        android:text="WEIGHT (KG)"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="serif"/>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="IN KGs"
+        android:ems="10"
+        android:fadingEdgeLength="10dp"
+        android:inputType="numberDecimal"
+        android:textAlignment="center">
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="30dp"
+        android:text="HEIGHT (CM)"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        />
+
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="IN CMs"
+        android:ems="10"
+        android:inputType="numberDecimal">
+        <requestFocus />
+    </EditText>
+
+
+
+    <Button
+        android:id="@+id/ib1"
+        android:layout_width="158dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fadingEdge="vertical"
+        android:longClickable="true"
+        android:nextFocusRight="@android:color/black"
+        android:text="Calculate"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:text=""
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+
+</LinearLayout>

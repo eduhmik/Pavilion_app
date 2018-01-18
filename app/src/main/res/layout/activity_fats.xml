@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/activity_fats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fats"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_light"
+        android:gravity="center"/>
+
+
+
+    <TextView
+        android:text="Lipids Definition.\nIn biology, lipids comprise a group of naturally occurring molecules that include fats, waxes, sterols, fat-soluble vitamins (such as vitamins A, D, E, and K), monoglycerides, diglycerides, triglycerides, phospholipids, and others. The main biological functions of lipids include storing energy, signaling, and acting as structural components of cell membranes. Lipids have applications in the cosmetic and food industries as well as in nanotechnology.\nFats Deficiency Diseases;\nNeurological derangement and mental illness:\nResearch findings show that depression disease patients have lower levels of essential omega-3 FA in their blood than normal persons. Children suffering from attention-deficit hyperactivity disorder (ADHD), dyslexia, autism or dyspraxia are found to have deficiency of omega-3 FA. The supplementation with the missing fatty acids is found to improve their status.\nDepression, irritability, low mental energy, learning disability and psychiatric diseases like schizophrenia have been associated with low intake of essential n-3 FA. Cognitive decline during aging and Alzheimer Disease are associated with decrease in DHA in the brain.\nCardiovascular diseases:\nLow levels of omega-3 fatty acid in the blood is associated with cardiovascular diseases like coronary heart disease, hypertension, stroke, cardiac arrest, atherosclerosis and coronary arteriosclerosis.\nAuto-immunity and chronic inflammation:\nLow levels of omega-3 FA in the blood is associated with chronic inflammation like chronic obstructive pulmonary disease (COPD), arthritis, Crohn’s disease, rheumatoid arthritis, multiple sclerosis, systemic lupus erythematosus, ulcerative colitis and immunoglobulin A nephropathy.\nCancers:\nResearch studies have found that there is an inverse relationship between relatively high adipose tissue level of EPA and DHA and decrease in the level of breast cancer risk. Similarly, research studies have shown an inverse relationship between blood levels of EPA and DHA and the risk of prostate and colon cancer.\nPregnancy and lactation:\nDHA is very essential for fetuses and infants. The DHA content of the infant's brain increases by 300% at the end of three months of life. Postpartum depression, ADHD and low IQs are all the result of low DHA intake during pregnancy.\nLow blood levels of essential omega-3 fatty acids during pregnancy increases the risk of increase in blood pressure, pre-eclampsia and subsequent premature birth. Pregnant women are prone to low levels of omega-3 FA as the nutritional supplies are diverted to the growing fetus. Preterm infants have lower levels of essential omega-3 when compared to full term babies. DHA is very important for optimal fetal nervous system development, especially in the last trimester of pregnancy.\nChristopher E Ramsden et all in their recent cohort study found that;\nsubstituting dietary linoleic fatty acid in place of saturated FAs increased the rates of death from all causes, coronary heart disease, and cardiovascular disease; These findings could have important implications for worldwide dietary advice to substitute polyunsaturated fatty acids in general, for saturated FAs."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9" />
+    </LinearLayout>
+</ScrollView>

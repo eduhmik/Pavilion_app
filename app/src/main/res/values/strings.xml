@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MyPavilionApp</string>
+    <string-array name="foods">
+        <item>Menu</item>
+        <item>Tea</item>
+        <item>Coffee</item>
+        <item>Bread</item>
+        <item>Andazi</item>
+        <item>Doughnut</item>
+        <item>Ugali</item>
+        <item>Githeri</item>
+        <item>Rice</item>
+        <item>Chapati</item>
+        <item>Beans</item>
+        <item>Ndengu</item>
+        <item>Beef</item>
+        <item>Goat Meat</item>
+        <item>Chicken</item>
+        <item>Egg Curry</item>
+        <item>Boiled Egg</item>
+        <item>Fried Egg</item>
+        <item>Watermelon</item>
+        <item>Banana</item>
+        <item>Veges</item>
+
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

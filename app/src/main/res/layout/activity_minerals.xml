@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/activity_minerals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Minerals"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_light"
+        android:gravity="center"/>
+
+    <TextView
+        android:text="Mineral Salts definition.\nMineral salts are essential to the body and its metabolic function. They take part, inter alia, to the fluids balance, development of enzymes and hormones, the composition of bones and teeth, transmission of nerve impulses and muscle contraction.  We distinguish macronutrients (calcium, magnesium, phosphorus ...) present in large amounts and trace elements (iron, copper ...) present in infinitesimal quantities.  The body cannot manufacture them so they must be supplied by food.\nExamples of mineral salts;\n Magnesium\nWhy it’s important:\nPlays an important role in mitochondrial function. Involved in many biochemical reactions in the body, helping maintain normal heart rhythm, immune system, and muscle function. Low magnesium levels are linked with a variety of conditions, including hypertension, heart disease, osteoporosis, and poorly controlled diabetes.\nSigns you could be deficient:\nBody odor, constipation, muscle cramps, insomnia, headaches, and fatigue.\nFoods that have it:\nDark, leafy greens like spinach and swiss chard, nuts and seeds, mackerel, lima beans.\nPhosphorus\nWhy it’s important:\nA mineral and electrolyte. A key component of cells and bones and plays a large role in calcium regulation (healthy bones and teeth). Abnormal phosphorus can mean abnormalities in the bones, calcium, or in electrolyte balance.\nSigns you could be deficient:\nLoss of appetite, anxiety, bone pain, fragile bones, stiff joints, fatigue, irregular breathing, irritability, numbness, weakness, and weight change, according to the University of Maryland Medical Center.\nFoods that have it:\nProtein rich foods, such as meat, poultry, fish, eggs, dairy products, nuts, and legumes are good sources of phosphorus.\nZinc\nWhy it’s important:\nZinc is needed for normal growth, development, and sexual maturation, and helps regulate appetite, stress level, and sense of taste and smell. It also has antioxidant properties and plays an essential role in the immune system.\nSigns you could be deficient:\nGrowth and development problems, hair loss, diarrhea, impotence, eye and skin conditions, and loss of appetite. Other symptoms may include weight loss, delayed wound healing, taste changes, and mental slowness.\nFoods that have it: Beef and lamb, liver, spinach, pumpkin and squash seeds, pork, chicken.\nCalcium\nWhy it’s important:\nA mineral and electrolyte found in your bones as well as in your blood. Crucial for maintaining proper nerve and heart function, blood clotting, and muscle contraction.\nSigns you could be deficient:\nSevere calcium deficiency can produce signs and symptoms of confusion and memory loss. A low blood calcium level can affect the functions of the nervous system and result in mental confusion, hallucinations, and delusions as well as memory loss, according to livestrong.com. Mood changes such as depression may also result.\nFoods that have it:\nDairy products (milk, yogurt, and cheese), sardines, vegetables (Chinese cabbage, kale, and broccoli).\nIron:\nWhy it’s important:\nThe tiny amount you need is crucial to normal body functions. If you do not have enough iron, your body cannot make hemoglobin, the oxygen-carrying component of red blood cells, and you may develop anemia, a disorder that occurs when there is not enough hemoglobin in the blood.\nSigns you could be deficient:\nSymptoms of anemia include:\nFeeling tired, difficulty breathing, dizziness, headaches, feeling cold.\nFoods that have it:\nMeat, seafood, poultry, beans, peas and dark, green leafy vegetables. If you supplement, it is important to only take the prescribed amount, as too much Iron can be toxic.\nPotassium:\nWhy it’s important:\nPotassium helps maintain the correct balance of fluid in the body as well as the right chemical balance of acids and bases. Potassium triggers muscle contractions, including heart muscle contractions. The balance of potassium with other electrolytes is the key to assessing optimal electrolyte function.\nSigns you could be deficient:\nWeakness, fatigue, muscle cramps, constipation.\nFoods that have it:\nCitrus fruits, apples, bananas, apricots, cantaloupe, potatoes (especially with the skin), tomatoes, spinach, Brussels sprouts (yum!), mushrooms, beans, peas, and almonds.\nSelenium:\nWhy it’s important:\nAn essential trace mineral that has potent antioxidant properties and is highly concentrated in your thyroid, making it a key player in Thyroid function. As such, hypothyroidism is a condition that occurs when your thyroid does not manufacture enough thyroid hormones.\nSigns you could be deficient:\nAccording to livestrong.com, physical hypothyroidism symptoms can include tiredness and lethargy, loss of appetite, weight gain, hair loss, intolerance to cold, a slowed heart rate, dry and scaly skin, constipation, menstrual irregularities, hoarse voice and drooping, swollen eyes. Non-physical symptoms can include a loss of sex drive, an inability to concentrate, forgetfulness, poor mood and depression.\nFoods that have it:\nBrazil nuts, sunflower seeds, fish (halibut, sardines, flounder, salmon), shellfish (oysters, mussels, shrimp, clams and scallops), meat (beef, liver, lamb and pork), poultry (chicken and turkey), eggs, mushrooms (button, crimini, shiitake). "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8" />
+    </LinearLayout>
+</ScrollView>
